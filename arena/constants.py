@@ -1,0 +1,41 @@
+"""Shared constants for the combat engine."""
+
+# Event identifiers. These string constants are the public contract used
+# by designers when configuring skills, passives or battlefield effects.
+ON_TURN_START = "on_turn_start"
+ON_TURN_END = "on_turn_end"
+ON_USE_SKILL = "on_use_skill"
+ON_ATTACK = "on_attack"
+ON_RECEIVE_DAMAGE = "on_receive_damage"
+ON_HEALED = "on_healed"
+ON_ALLY_ACTION = "on_ally_action"
+ON_ENEMY_ACTION = "on_enemy_action"
+ON_ALLY_DEATH = "on_ally_death"
+ON_ENEMY_DEATH = "on_enemy_death"
+ON_ENTER_BATTLE = "on_enter_battle"
+ON_EXIT_BATTLE = "on_exit_battle"
+ON_APPLY_EFFECT = "on_apply_effect"
+ON_REMOVE_EFFECT = "on_remove_effect"
+ON_FIELD_APPLY = "on_field_apply"
+ON_FIELD_TICK = "on_field_tick"
+ON_FIELD_EXPIRE = "on_field_expire"
+ON_ENTER_ZONE = "on_enter_zone"
+ON_EXIT_ZONE = "on_exit_zone"
+ON_TRANSFORM = "on_transform"
+ON_TRANSFORM_END = "on_transform_end"
+
+# Damage packet dictionary keys.
+DMG_AMOUNT = "damage"
+DMG_TYPE = "type"
+DMG_IS_CRIT = "critical"
+
+# Combat tags.
+TAG_LIGHT = "light"
+TAG_DARK = "dark"
+TAG_FIRE = "fire"
+TAG_ICE = "ice"
+TAG_ELECTRIC = "electric"
+TAG_DEMON = "demon"
+TAG_PALADIN = "paladin"
+TAG_ROBOT = "robot"
+TAG_HUMAN = "human"
